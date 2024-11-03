@@ -1,0 +1,127 @@
+* {
+    margin: 0%;
+}
+.heading {
+    margin-top: 20px;
+    top: 1px;
+    height: 400px;
+    position: sticky;
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: rgb(247, 170, 170);
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+} 
+.log {
+    padding:  50px ;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    padding: 150px;
+    gap: 150px;
+    text-align: center;
+}
+.navbar div a:hover{
+    color: rgb(34, 103, 182);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 170, 170);;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .blog {
+    margin:20px ;
+    height: 50vh;
+    padding-top: 300px;
+    background-image: url("https://gtectrichy.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-27-at-2.27.25-PM-1.jpeg");
+    background-size: cover;       /* Scales the image to cover the whole page */
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    }
+    .offer {
+      display: grid;
+      grid-template-columns: auto auto;
+      margin: 90px 0px 0px 90px;
+      row-gap: 20px;
+      text-align: center;
+    }
+.ai {
+  padding: 10px;
+  height: max-content;
+  width: 70%;
+  border-style: groove;
+ }
+.fees {
+  padding: 10px;
+  height: max-content;
+  width: 70%;
+ border-style: groove;  
+}
+.Popular {
+  padding: 10px;
+  height: max-content;
+  width: 70%;
+ border-style: groove;
+ 
+}
+.top {
+  padding: 10px;
+  height: max-content;
+  width: 70%;
+  border-style: groove;
+}
+.offer a {
+  font-size: 60px;
+  font-weight: 400px;
+  font-family: sans-serif;
+  text-align: left;
+ }
+.offer p {
+  font-size: 50px;
+  font-family: monospace;
+  text-align: left;
+}
+.offer a:hover {
+  color: rgb(103, 176, 254);
+ }
+ .footer {
+    margin-top: 50px;
+    padding: 100px;
+    height: max-content;
+    background-color: rgb(204, 203, 206);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: justify;
+}
+#Rights {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}

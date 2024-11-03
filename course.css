@@ -1,0 +1,200 @@
+* {
+    margin: 0%;
+}
+.heading {
+    margin-top: 20px;
+    top: 1px;
+    height: 400px;
+    position: sticky;
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: rgb(247, 170, 170);
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: 600;
+} 
+.log {
+    padding:  50px ;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    padding: 150px;
+    gap: 150px;
+    text-align: center;
+}
+.navbar div a:hover{
+    color: rgb(34, 103, 182);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 170, 170);;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .course {
+    margin:20px ;
+    height: 50vh;
+    padding-top: 300px;
+    background-image: url("Best-Teacher-Training-Courses-In-India-2.png");
+    background-size: cover;       /* Scales the image to cover the whole page */
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300px;
+    text-align: center;
+    color: rgb(65, 13, 66);
+    font-weight: 500;
+    }
+#explore {
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+.programs {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    margin-left: 20px;
+}
+
+.cadd {
+    margin: 20px;
+    padding: 80px;
+    height: max-content;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(196, 189, 197);    
+}
+
+.cadd img {
+    height: 250px;
+}
+.software {
+    margin: 20px;
+    padding: 20px;
+    height: max-content;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(202, 201, 201);  
+}
+.software img {
+    height: 250px;
+}
+.hardware {
+    margin: 20px;
+    padding: 20px;
+    height: max-content;
+    width: 56%;
+    text-align: center;
+    background-color: rgb(202, 201, 201);  
+}
+.hardware img {
+    height: 250px;
+}
+.finance {
+    margin: 20px;
+    padding: 20px;
+    height: max-content;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(202, 201, 201);  
+}
+.finance img {
+    height: 250px;
+}
+.mobile {
+    margin: 20px;
+    padding: 20px;
+    height: max-content;
+    width: 56%;
+    text-align: center;
+    background-color: rgb(202, 201, 201);  
+}
+.mobile img {
+    height: 250px;
+}
+.multimedia {
+    margin: 20px;
+    padding: 20px;
+    height: max-content;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(202, 201, 201);  
+}
+.multimedia img {
+    height: 250px;
+}
+.english {
+    margin: 20px;
+    padding: 20px;
+    height: max-content;
+    width: 56%;
+    text-align: center;
+    background-color: rgb(202, 201, 201);  
+}
+.english img {
+    height: 250px;
+}
+.programs h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 750;
+    font-style: normal;
+}
+.programs p {
+    font-size: 60px;
+    font-family: "Poppins";
+    font-style: oblique;
+}
+.us {
+    display: flex;
+    gap: 20px;
+}
+.it {
+    padding: 100px 0px 0px 100px;
+    height: 500px;
+    width: 50%;
+    font-size: 110px; 
+    font-weight: 200;
+}
+.g {
+    height: 500px;
+    padding: 100px 0px 0px 70px;
+    font-size: 60px;
+    font-family: "Raleway";
+    line-height: 80px;
+}
+  .footer {
+    margin-top: 50px;
+    padding: 100px;
+    height: max-content;
+    background-color: rgb(204, 203, 206);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: justify;
+}
+#Rights {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}

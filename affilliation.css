@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+}
+.heading {
+    margin-top: 20px;
+    top: 1px;
+    height: 400px;
+    position: sticky;
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: rgb(247, 170, 170);
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+} 
+.log {
+    padding:  50px ;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    padding: 150px;
+    gap: 150px;
+    text-align: center;
+}
+.navbar div a:hover{
+    color: rgb(34, 103, 182);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 170, 170);;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+ .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .awards {
+    margin:20px ;
+    height: 50vh;
+    padding-top: 300px;
+    background-image: url("https://rocketexpansion.com/wp-content/uploads/2022/03/Book-Awards-v2-1536x721.jpg");
+    background-size: cover;       /* Scales the image to cover the whole page */
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    }
+.rewards {
+ padding: 10px 0px 0px 50px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 50px;
+ font-weight: 100px;
+ line-height: 91px;
+}
+.rewards h1 {
+    font-family: montsterrat;
+    font-size: 90px;
+    font-weight: 300px;
+}
+.rewards a{
+    color: #008bd0;
+}
+.rewards img {
+    padding-left: 20px;
+    width: 30%;
+}
+.partnership {
+    padding: 5% 0% 0% 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.partnership img {
+    height: 500px;
+    width: 500px;
+}
+.one {
+    margin: 10% 0px 0px 90px;
+    height: 500px;
+    width: 80%;
+    background-image: url("background.webp");
+    display: flex;
+ }
+ .one h1 {
+    font-size: 90px;
+    padding: 4% 0% 0% 10%;
+}
+.one button {
+    margin: 4% 0% 0% 10%;
+    height: 100px;
+    width: max-content;
+    font-size: 50px;
+    color: #008bd0;
+}
+.one button:hover {
+    background-color: #008bd0;
+    border-style: groove;
+}
+.footer {
+    margin-top: 50px;
+    padding: 100px;
+    height: max-content;
+    background-color: rgb(204, 203, 206);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: justify;
+}
+#Rights {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
